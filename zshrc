@@ -1,14 +1,27 @@
-echo 'Buenos dias Victor, estoy lista para empezar :)'
-
+echo ""
+echo "    ██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗   "
+echo "    ██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝   "
+echo "    ██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗     "
+echo "    ██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝     "
+echo "    ╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗   "
+echo "     ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝   "
+echo "                                                                     "
+echo "            ██╗   ██╗██╗ ██████╗████████╗ ██████╗ ██████╗            "
+echo "            ██║   ██║██║██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗           "
+echo "            ██║   ██║██║██║        ██║   ██║   ██║██████╔╝           "
+echo "            ╚██╗ ██╔╝██║██║        ██║   ██║   ██║██╔══██╗           "
+echo "             ╚████╔╝ ██║╚██████╗   ██║   ╚██████╔╝██║  ██║           "
+echo "              ╚═══╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝           "
+echo ""
+echo "                       Let's hack that shit.       "
 # Set Variables
-
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH Options
 
 
 # Create Aliases
-
-# Customize Prompt(s)
 
 # Add Locations to $PATH Variables
 # Add Visual Studio Code (code)
