@@ -137,4 +137,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias CC='/Users/VictorHGH/Documents/Cooperacion_comunitaria'
+alias MA='/Users/VictorHGH/Documents/Maestria'
+alias PG='/Users/VictorHGH/Documents/programacion_2.0'
+alias PGF='/Users/VictorHGH/Documents/programacion_2.0/Flask'
+alias vic='nvim "+ :syntax on" .'
+alias conf='nvim ~/.zshrc'
+alias confn='nvim ~/.config/nvim/init.vim'
+alias up='pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U'
+alias ub='brew upgrade `brew outdated`'
+alias my='mycli mysql://root@localhost:3306/mysql'
+alias c='clear'
+alias sqlite='litecli *.db'
 export PATH="/usr/local/sbin:$PATH"
