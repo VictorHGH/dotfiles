@@ -153,5 +153,6 @@ alias v='/Users/VictorHGH/Documents/VHGH/VHGH-web'
 alias password='/Users/VictorHGH/Documents/programacion_2.0/python/passwords/'
 alias invest='cp -r ~/Documents/investigaciones/Plantilla/ ./Esqueleto'
 alias investp='cd ~/Documents/investigaciones/Plantilla/'
-alias proto="cd ~/Documents/Maestria/Protocolo/Estructura/"
+alias proto='nvim "+ :syntax on" ~/Documents/Maestria/Protocolo/Estructura/'
 export PATH="/usr/local/sbin:$PATH"
+alias prueba="~/.scripts/escritos.sh"
