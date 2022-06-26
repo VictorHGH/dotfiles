@@ -7,6 +7,6 @@
 	process = git-lfs filter-process
 	required = true
 [core]
-	editor = pycharm
+	editor = nvim
 [init]
 	defaultBranch = master
