@@ -148,7 +148,7 @@ alias up='pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 
 alias ub='brew upgrade `brew outdated`'
 alias my='mycli mysql://root@localhost:3306/mysql'
 alias c='clear'
-alias sqlite='litecli *.db'
+alias sqli='litecli *.db'
 alias v='/Users/VictorHGH/Documents/VHGH/VHGH-web'
 alias password='/Users/VictorHGH/Documents/programacion_2.0/python/passwords/'
 alias invest='cp -r ~/Documents/investigaciones/Plantilla/ ./Esqueleto'
