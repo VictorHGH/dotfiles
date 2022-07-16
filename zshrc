@@ -156,3 +156,5 @@ alias investp='cd ~/Documents/investigaciones/Plantilla/'
 alias proto='nvim "+ :syntax on" ~/Documents/Maestria/Protocolo/Estructura/'
 export PATH="/usr/local/sbin:$PATH"
 alias prueba="~/.scripts/escritos.sh"
+export PATH="/usr/local/opt/gnupg@2.2/bin:$PATH"
+export PATH="/usr/local/opt/node@16/bin:$PATH"
