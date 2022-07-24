@@ -19,7 +19,8 @@ echo "                       Let's hack that shit.       "
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH Options
-
+export EDITOR=nvim
+export VISUAL="$EDITOR"
 
 # Create Aliases
 
@@ -137,24 +138,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias CC='/Users/VictorHGH/Documents/Cooperacion_comunitaria'
-alias MA='/Users/VictorHGH/Documents/Maestria'
 alias PG='/Users/VictorHGH/Documents/programacion_2.0'
-alias PGF='/Users/VictorHGH/Documents/programacion_2.0/Flask'
-alias vic='nvim "+ :syntax on" .'
+alias vic='nvim .'
 alias conf='nvim ~/.zshrc'
-alias confn='nvim ~/.config/nvim/init.vim'
+alias confn='nvim ~/.config/nvim/'
 alias up='pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U'
 alias ub='brew upgrade `brew outdated`'
-alias my='mycli mysql://root@localhost:3306/mysql'
 alias c='clear'
 alias sqli='litecli *.db'
-alias v='/Users/VictorHGH/Documents/VHGH/VHGH-web'
 alias password='/Users/VictorHGH/Documents/programacion_2.0/python/passwords/'
-alias invest='cp -r ~/Documents/investigaciones/Plantilla/ ./Esqueleto'
-alias investp='cd ~/Documents/investigaciones/Plantilla/'
-alias proto='nvim "+ :syntax on" ~/Documents/Maestria/Protocolo/Estructura/'
+alias proto='nvim ~/Documents/Maestria/Protocolo/Estructura/'
 export PATH="/usr/local/sbin:$PATH"
 alias prueba="~/.scripts/escritos.sh"
 export PATH="/usr/local/opt/gnupg@2.2/bin:$PATH"
 export PATH="/usr/local/opt/node@16/bin:$PATH"
+export PATH="/usr/local/opt/python@3.10/bin:$PATH"
